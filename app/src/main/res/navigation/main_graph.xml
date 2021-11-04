@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/authFragment">
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.dvilson.wakhalway.ui.authentication.AuthFragment"
+        android:label="auth_fragment"
+        tools:layout="@layout/auth_fragment" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.dvilson.wakhalway.ui.registration.RegistrationFragment"
+        android:label="registration_fragment"
+        tools:layout="@layout/registration_fragment" />
+    <fragment
+        android:id="@+id/channelFragment"
+        android:name="com.dvilson.wakhalway.ChannelFragment"
+        android:label="channel_fragment"
+        tools:layout="@layout/channel_fragment" />
+</navigation>
