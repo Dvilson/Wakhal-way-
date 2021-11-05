@@ -1,4 +1,4 @@
-package com.dvilson.wakhalway
+package com.dvilson.wakhalway.ui.channel
 
 import androidx.lifecycle.ViewModel
 

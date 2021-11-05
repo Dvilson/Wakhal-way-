@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/auth_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/channel_fragment.xml" value="0.35989583333333336" />
         <entry key="app/src/main/res/layout/registration_fragment.xml" value="0.24791666666666667" />
       </map>
     </option>
